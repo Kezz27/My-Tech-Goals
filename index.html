@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Tech Goals</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f3f3;
+            color: #4d0be6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #1a0be9;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        ol {
+            background: #080808;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        ol li {
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+
+        .profile {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .profile p {
+            margin: 5px 0;
+        }
+
+        .profile img {
+            width: 200px;
+            height: auto;
+            border-radius: 17%;
+            margin-top: 20px;
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .links a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .links a:hover {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>My Tech Goals for the Next 2 Years</h1>
+    <ol>
+        <li>
+            Master the Basics<br>
+            HTML & CSS: Get really comfortable with HTML5 and CSS3.<br>
+            Understand things like Flexbox and Grid, and<br>
+            make sure I can create beautiful, responsive layouts.<br><br>
+            JavaScript: Dive deep into modern JavaScript (ES6+).<br> 
+            Learn about arrow functions, async/await,<br> 
+            and other cool features.
+        </li>
+        <br>
+        <li> Build Responsive and Accessible Websites</li>
+        <li>Learn Advanced Frameworks and Libraries</li>
+        <li>Create Progressive Web Apps (PWAs)</li>
+        <li>Explore Static Site Generators and JAMstack</li>
+        <li>Optimize Web Performance</li>
+        <li>Get Familiar with CSS Preprocessors and Frameworks</li>
+        <li>And continue to be better and better.</li>
+    </ol>
+    
+    <div class="profile">
+        <p data-testid="slackDisplayName">Kezz</p>
+        <p data-testid="currentTimeUTC">01:22pm</p>
+        <p data-testid="currentDay">Tuesday</p>
+        <p data-testid="slackEmail">akorhappiness27@gmail.com</p>
+        <img src="img/Profile picture.jpg" alt="Slack Profile Picture" data-testid="slackProfilePicture">
+    </div>
+
+    <div class="links">
+        <a href="http://hng.tech/learn" data-testid="hngLink">HNG Learn</a>
+        <a href="http://keyword.dog" data-testid="keywordLink">Keyword Dog</a>
+        <a href="http://scrapeanyweb.site" data-testid="scrapeanywebLink">Scrape Any Web</a>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
